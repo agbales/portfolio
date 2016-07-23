@@ -17,7 +17,7 @@ body {
   color: #1a1a1a;
   text-align: center;
 }
-
+v
 .button.button-primary {
   border-radius: 0% 0% 25px 25px;
 }
@@ -382,6 +382,7 @@ input.button.button-primary:hover {
   background-color: #1a1a1a;
   border: 25px solid #1a1a1a;
   border-radius: 10px;
+  margin-top: 30px;
   width: 100%;
 }
 #video:before {
