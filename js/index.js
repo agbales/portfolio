@@ -72,5 +72,4 @@ $(window).resize(resize);
 $(document).ready(function(){ 
   $('#nav').addClass('absolute-nav');
   resize();
-  headerType();
 });
