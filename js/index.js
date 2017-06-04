@@ -27,7 +27,7 @@ function headerType() {
     loop: false
 	});
   $('#dev').typed({
-		strings: ["I write code in Cincinnati."],
+		strings: ["I write code in Seattle."],
     startDelay: 6000,
 		typeSpeed: 80,
     backDelay: 1000,
