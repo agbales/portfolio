@@ -11,14 +11,14 @@ function resize() {
   } else {
     $('#overview').css({paddingTop: 0});
   }
-  
+
   headerType();
 }
 
 function headerType() {
   $('#hello').empty();
   $('#dev').empty();
-  
+
   $('#hello').typed({
 		strings: ["Hello.", "I'm Andrew Bales."],
 		typeSpeed: 80,
@@ -49,7 +49,7 @@ $('a').click(function() {
 
 $(window).scroll(function() {
   var windowHeight = $(window).height();
-  
+
   // Sticky Nav
   if ($(window).scrollTop() >= windowHeight - $('#nav').outerHeight()) {
     $('#nav').addClass('fixed-nav');
@@ -58,7 +58,7 @@ $(window).scroll(function() {
     $('#nav').addClass('absolute-nav');
     $('#nav').removeClass('fixed-nav');
   }
-  
+
   // Scroll Fade
   if ($(window).scrollTop() > 100) {
     $('#hello-text').css('opacity', '0');
@@ -69,7 +69,7 @@ $(window).scroll(function() {
 
 $(window).resize(resize);
 
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('#nav').addClass('absolute-nav');
   resize();
 });
