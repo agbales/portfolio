@@ -187,6 +187,11 @@ input.button.button-primary:hover {
   transform: translateY(2px);
 }
 
+.devicon-medium {
+  max-height: 45px;
+  transform: translateY(-5px);
+}
+
 .devicon-sketch {
   max-height: 50px;
 }
