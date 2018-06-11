@@ -1,555 +1,483 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Andrew Bales Portfolio</title>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href=
-    'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'
-    rel='stylesheet prefetch'>
-    <link href='https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css'
-    rel='stylesheet prefetch'>
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrew Bales Portfolio</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href=
+  'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'
+  rel='stylesheet prefetch'>
+  <link href='https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css'
+  rel='stylesheet prefetch'>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" id="header">
-        <div class="row" id="hello-text">
-            <div class="twelve columns quote-box">
-                <div class="clipped-text" id="hello"></div>
-                <div class="clipped-text" id="dev"></div>
-            </div>
+  <div class="container" id="header">
+    <div class="row" id="hello-text">
+      <div class="twelve columns quote-box">
+        <div class="clipped-text" id="hello"></div>
+        <div class="clipped-text" id="dev"></div>
+      </div>
+    </div>
+    <div id="andrew"><img src="./images/agb-bw.png"></div>
+  </div><!-- /header -->
+  <!-- Nav, full width -->
+  <div class="row" id="nav">
+      <div class="five columns center-text agbales">
+          <h2><a href="#header">@agbales</a></h2>
+      </div>
+      <div class="seven columns center-text nav-links">
+          <ul>
+              <li>
+                  <a href="#story">My Story</a>
+              </li>
+              <li>
+                  <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                  <a href="#experience">Experience</a>
+              </li>
+              <li>
+                  <a href="#skills">Skills</a>
+              </li>
+              <li>
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div><!-- /nav -->
+  <!-- Overview begin-->
+  <div class="container" id="overview">
+    <!-- white-bg for full-width white background -->
+    <div class="white-bg"></div><!-- Story -->
+    <div class="row section-padding" id="story">
+      <div class="one-third column">
+        <div class="section-icon-container">
+          <img class="responsive-img" src="./icons/agb-story.png">
+          <h4 class="section-title center-text">Andrew</h4>
         </div>
-        <div id="andrew"><img src="./images/agb-bw.png"></div>
-    </div><!-- /header -->
-    <!-- Nav, full width -->
-    <div class="row" id="nav">
-        <div class="five columns center-text agbales">
-            <h2><a href="#header">@agbales</a></h2>
+      </div>
+      <div class="two-thirds column tw">
+        <h4>Hello!</h4>
+        <p>I'm Andrew Bales. I'm a motivated learner who's excited by a
+        good challenge. As a PhD student in Creative Writing at the University of Cincinnati, I proposed a course of study with the School of Information Technology to address composition problems my students were facing in the classroom. With the help of local meetups and communities like Free Code Camp, I've developed and deployed projects with Ruby on Rails, Node, React, and gave back by creating local data projects and designing the ruby gem Hexit.</p>
+        <p>Since then, I've partnered with the Digital Media Collaborative to develop and teach Writing Fiction in the Digital Age. I've also worked with university library staff as a collections developer to produce a public-facing website to explore data from The Elliston Project.</p>
+        <p>Over the years, I've worked as a designer, an NPR radio
+        researcher and host, an editor on a national fiction magazine,
+        and founded a community arts magazine and an annual local music festival. I'm now exploring machine learning, VR, and AR, and can't wait to see all the ways that information, design, and learning collide!</p>
+        <p></p>
+        <ul class="devicon-bar">
+					<li>
+						<a href="https://github.com/agbales/" target="_blank">
+              <img class="devicon-github" src="./icons/github.png">
+            </a>
+					</li>
+					<li>
+						<a href="http://codepen.io/agbales" target="_blank">
+              <img class="devicon-codepen" src="./icons/codepen.png">
+            </a>
+					</li>
+					<li>
+						<a href="https://www.behance.net/AndrewBales" target="_blank">
+              <img class="devicon-behance" src="./icons/behance.png">
+            </a>
+					</li>
+					<li>
+						<a href="http://freecodecamp.org/agbales" target="_blank">
+              <img class="devicon-fcc" src="./icons/freecodecamp.png">
+            </a>
+					</li>
+					<li>
+						<a href="http://twitter.com/agbales" target="_blank">
+              <img class="devicon-twitter" src="./icons/twitter.png">
+            </a>
+					</li>
+          <li>
+            <a href="https://medium.com/@agbales" target="_blank">
+              <img class="devicon-medium" src="./icons/medium.png">
+            </a>
+          </li>
+				</ul>
+      </div>
+    </div><!-- /story-->
+    <!-- Portfolio -->
+    <div class="row" id="portfolio">
+        <div class="one-third column">
+          <div class="section-icon-container">
+            <img class="responsive-img" src="./icons/agb-projects.png">
+            <h4 class="section-title center-text">Projects</h4>
+          </div>
         </div>
-        <div class="seven columns center-text nav-links">
-            <ul>
-                <li>
-                    <a href="#story">My Story</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div><!-- /nav -->
-    <!-- Overview begin-->
-    <div class="container" id="overview">
-        <!-- white-bg for full-width white background -->
-        <div class="white-bg"></div><!-- Story -->
-        <div class="row section-padding" id="story">
-            <div class="one-third column">
-                <div class="section-icon-container">
-                    <img class="responsive-img" src="./icons/agb-story.png">
-                    <h4 class="section-title center-text">Andrew</h4>
+        <div class="two-thirds column">
+            <!-- Video -->
+            <div class="project-container">
+              <div id="video">
+                <iframe allowfullscreen="1" frameborder="0" src=
+                "https://player.vimeo.com/video/148949697?color=ffc952&byline=0&portrait=0"
+                style="width: 100%;"></iframe>
+              </div>
+            </div><!-- /video -->
+
+            <!-- MIDI Collaboration -->
+            <div class="project-container">
+							<h4>MIDI Collaboration</h4>
+							<iframe src="https://player.vimeo.com/video/224262761"
+											width="100%" height="360" 
+                      frameborder="0"
+											style="margin-top:-25px"
+											webkitallowfullscreen mozallowfullscreen allowfullscreen>
+							</iframe>
+							<p><a href="https://vimeo.com/224262761">Midi Collaboration App</a> from
+								 <a href="https://vimeo.com/agbales">agbales</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+								 <div class="project-description">
+                   <p>Play music online with friends! Real-time MIDI collaboartion with USB controllers. Custom 80s themed UI for a throwback feel.</p>
+                   <p>I created a tutorial on Medium that was published with
+                     <a href="https://medium.com/@agbales/how-to-build-a-collaborative-midi-app-with-express-js-socket-io-273663b63201" target="_blank">Hackernoon</a>:
+                   </p>
+                   <img src="./images/hacker-noon.png" class="project-screenshot">
+                 </div>
+                 <ul>
+                   <li>Express.js</li>
+                   <li>Socket.io</li>
+									 <li>Web MIDI API</li>
+                   <li>Heroku</li>
+                 </ul>
+                 <div class="project-resources">
+                   <ul class="devicon-bar">
+                     <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                     <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+										 <li><i class="devicon-react-plain icon-sizing color-icon"></i></li>
+										 <li><i class="devicon-nodejs-plain icon-sizing color-icon"></i></li>
+										 <li><i class="devicon-heroku-plain icon-sizing color-icon"></i></li>
+                   </ul>
+                   <a class="button button-primary" href="https://midi-collaboration.herokuapp.com/" target="_blank">View
+                   Project</a>
+                 </div>
+					  </div>
+            <!-- American Lynching -->
+            <div class="project-container">
+                <h4>American Lynching</h4>
+                <a href="http://americanlynchingdata.com/" target="_blank">
+                  <img class="project-screenshot" src="./images/americanlynchingdata.png">
+                </a>
+                <div class="project-banner">
+                  <h3>NEH Award Winner</h3>
+                  <h6>National Endowment for the Humanities</h6>
+                </div>
+                <div class="project-description">
+                  <p>Library of Congress newspaper API combined with landmark lynching datasets from the
+                  past 100 years. Awarded second palce in National Endowment
+                  for the Humanities' challenge for the Library of
+                  Congress database Chronicling America API.</p>
+                </div>
+                <ul>
+                    <li>Chronicling America API</li>
+                    <li>University of North Carolina - Wilmington, Project
+                    HAL</li>
+                    <li>Hand-coded Tuskegee University Data</li>
+                </ul>
+                <div class="project-resources">
+                  <ul class="devicon-bar">
+                    <li><i class="devicon-bootstrap-plain icon-sizing color-icon"></i></li>
+                    <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                    <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+                    <li><i class="devicon-photoshop-plain icon-sizing color-icon"></i></li>
+                    <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
+                  </ul>
+                  <ul class="devicon-bar">
+                    <li><i class="devicon-javascript-plain icon-sizing"></i></li>
+                    <li><i class="devicon-jquery-plain-wordmark icon-sizing"></i></li>
+                    <li><img class="devicon-chartjs" src="./icons/chartjs-logo-custom.png"></li>
+                  </ul>
+                  <a class="button button-primary" href="http://americanlynchingdata.com/" target="_blank">View Project</a>
                 </div>
             </div>
-            <div class="two-thirds column tw">
-              <h4>Hello!</h4>
-              <p>I'm Andrew Bales. I'm a motivated learner who's excited by a
-              good challenge. As a PhD student in Creative Writing at the University of Cincinnati, I proposed a course of study with the School of Information Technology to address composition problems my students were facing in the classroom. With the help of local meetups and communities like Free Code Camp, I've developed and deployed projects with Ruby on Rails, Node, React, and gave back by creating local data projects and designing the ruby gem Hexit.</p>
-              <p>Since then, I've partnered with the Digital Media Collaborative to develop and teach Writing Fiction in the Digital Age. I've also worked with university library staff as a collections developer to produce a public-facing website to explore data from The Elliston Project.</p>
-              <p>Over the years, I've worked as a designer, an NPR radio
-              researcher and host, an editor on a national fiction magazine,
-              and founded a community arts magazine and an annual local music festival. I'm now exploring machine learning, VR, and AR, and can't wait to see all the ways that information, design, and learning collide!</p>
-              <p></p>
+            <!-- Cincinnati Police Data -->
+            <div class="project-container">
+              <h4>Cincinnati Police Data</h4>
+              <a href="https://agbales.github.io/Cincinnati-Police-Data/" target="_blank">
+                <img class="project-screenshot" src="./images/cincypolicedata.png">
+              </a>
+              <div class="project-description">
+                <p> This project transforms Cincinnati Open Data into simple and interactive maps to educate the public about citizen complaints against the police department.</p>
+                <p>A custom SVG map I created in Illustrator helps residents locate their distic.</p>
+              </div>
+              <ul>
+                <li>Cincinnati Open Data &mdash; SODA API</li>
+              </ul>
               <ul class="devicon-bar">
-								<li>
-									<a href="https://github.com/agbales/" target="_blank">
-                    <img class="devicon-github" src="./icons/github.png">
-                  </a>
-								</li>
-								<li>
-									<a href="http://codepen.io/agbales" target="_blank">
-                    <img class="devicon-codepen" src="./icons/codepen.png">
-                  </a>
-								</li>
-								<li>
-									<a href="https://www.behance.net/AndrewBales" target="_blank">
-                    <img class="devicon-behance" src="./icons/behance.png">
-                  </a>
-								</li>
-								<li>
-									<a href="http://freecodecamp.org/agbales" target="_blank">
-                    <img class="devicon-fcc" src="./icons/freecodecamp.png">
-                  </a>
-								</li>
-								<li>
-									<a href="http://twitter.com/agbales" target="_blank">
-                    <img class="devicon-twitter" src="./icons/twitter.png">
-                  </a>
-								</li>
-                <li>
-                  <a href="https://medium.com/@agbales" target="_blank">
-                    <img class="devicon-medium" src="./icons/medium.png">
-                  </a>
-                </li>
-							</ul>
+                <li><i class="devicon-bootstrap-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
+              </ul>
+              <ul class="devicon-bar">
+                <li><i class="devicon-javascript-plain icon-sizing"></i></li>
+                <li><i class="devicon-jquery-plain-wordmark icon-sizing"></i></li>
+                <li><img class="devicon-chartjs" src="./icons/chartjs-logo-custom.png"></li>
+              </ul>
+              <div style="width: 100%;">
+              <a class="button button-primary" href="https://agbales.github.io/Cincinnati-Police-Data/" target="_blank">View Project</a>
+              </div>
             </div>
-        </div><!-- /story-->
-        <!-- Portfolio -->
-        <div class="row" id="portfolio">
-            <div class="one-third column">
-                <div class="section-icon-container">
-                    <img class="responsive-img" src="./icons/agb-projects.png">
-                    <h4 class="section-title center-text">Projects</h4>
-                </div>
-            </div>
-            <div class="two-thirds column">
-                <!-- Video -->
-                <div class="project-container">
-                    <div id="video">
-                        <iframe allowfullscreen="1" frameborder="0" src=
-                        "https://player.vimeo.com/video/148949697?color=ffc952&byline=0&portrait=0"
-                        style="width: 100%;"></iframe>
-                    </div>
-                </div><!-- /video -->
-
-                <!-- MIDI Collaboration -->
-                <div class="project-container">
-									<h4>MIDI Collaboration</h4>
-									<iframe src="https://player.vimeo.com/video/224262761"
-													width="100%" height="360" frameborder="0"
-													style="margin-top:-25px"
-													webkitallowfullscreen mozallowfullscreen allowfullscreen>
-									</iframe>
-									<p><a href="https://vimeo.com/224262761">Midi Collaboration App</a> from
-										 <a href="https://vimeo.com/agbales">agbales</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-										 <div class="project-description">
-                         <p>Play music online with friends! Real-time MIDI collaboartion with USB controllers. Custom 80s themed UI for a throwback feel.</p>
-                         <p>I created a tutorial on Medium that was published with
-                           <a href="https://medium.com/@agbales/how-to-build-a-collaborative-midi-app-with-express-js-socket-io-273663b63201" target="_blank">Hackernoon</a>:
-                         </p>
-                         <img src="./images/hacker-noon.png" class="project-screenshot">
-                     </div>
-                     <ul>
-                         <li>Express.js</li>
-                         <li>Socket.io</li>
-												 <li>Web MIDI API</li>
-                         <li>Heroku</li>
-                     </ul>
-                     <div class="project-resources">
-                         <ul class="devicon-bar">
-                             <li><i class=
-                             "devicon-html5-plain icon-sizing color-icon"></i></li>
-                             <li><i class=
-                             "devicon-css3-plain icon-sizing color-icon"></i></li>
-														 <li><i class=
-															"devicon-react-plain icon-sizing color-icon"></i></li>
-														 <li><i class=
-															"devicon-nodejs-plain icon-sizing color-icon"></i></li>
-														 <li><i class=
-															"devicon-heroku-plain icon-sizing color-icon"></i></li>
-                         </ul>
-                         <a class="button button-primary" href=
-                         "https://midi-collaboration.herokuapp.com/" target="_blank">View
-                         Project</a>
-                     </div>
-							  </div>
-                <!-- American Lynching -->
-                <div class="project-container">
-                    <h4>American Lynching</h4><a href=
-                    "http://americanlynchingdata.com/" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/americanlynchingdata.png"></a>
-                    <div class="project-banner">
-                        <h3>NEH Award Winner</h3>
-                        <h6>National Endowment for the Humanities</h6>
-                    </div>
-                    <div class="project-description">
-                        <p>Library of Congress newspaper API combined with landmark lynching datasets from the
-                        past 100 years. Awarded second palce in National Endowment
-                        for the Humanities' challenge for the Library of
-                        Congress database Chronicling America API.</p>
-                    </div>
-                    <ul>
-                        <li>Chronicling America API</li>
-                        <li>University of North Carolina - Wilmington, Project
-                        HAL</li>
-                        <li>Hand-coded Tuskegee University Data</li>
-                    </ul>
-                    <div class="project-resources">
-                        <ul class="devicon-bar">
-                            <li><i class=
-                            "devicon-bootstrap-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-html5-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-css3-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-photoshop-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                        </ul>
-                        <ul class="devicon-bar">
-                            <li><i class=
-                            "devicon-javascript-plain icon-sizing"></i></li>
-                            <li><i class=
-                            "devicon-jquery-plain-wordmark icon-sizing"></i></li>
-                            <li><img class="devicon-chartjs" src=
-                            "./icons/chartjs-logo-custom.png"></li>
-                        </ul><a class="button button-primary" href=
-                        "http://americanlynchingdata.com/" target="_blank">View
-                        Project</a>
-                    </div>
-                </div>
-                <!-- Cincinnati Police Data -->
-                <div class="project-container">
-                    <h4>Cincinnati Police Data</h4><a href=
-                    "https://agbales.github.io/Cincinnati-Police-Data/" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/cincypolicedata.png"></a>
-                    <div class="project-description">
-                        <p> This project transforms Cincinnati Open Data into simple and interactive maps to educate the public about citizen complaints against the police department.</p>
-                        <p>A custom SVG map I created in Illustrator helps residents locate their distic.</p>
-                    </div>
-                    <ul>
-                        <li>Cincinnati Open Data &mdash; SODA API</li>
-                    </ul>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-bootstrap-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-html5-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-css3-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                    </ul>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-javascript-plain icon-sizing"></i></li>
-                        <li><i class=
-                        "devicon-jquery-plain-wordmark icon-sizing"></i></li>
-                        <li><img class="devicon-chartjs" src=
-                        "./icons/chartjs-logo-custom.png"></li>
-                    </ul>
-                    <div style="width: 100%;">
-                        <a class="button button-primary" href=
-                        "https://agbales.github.io/Cincinnati-Police-Data/"
-                        target="_blank">View Project</a>
-                    </div>
-                </div>
-                <!-- Cincinnati Roadkill -->
-                <div class="project-container">
-                    <h4>Roadkill</h4><a href=
-                    "http://agbales.github.io/cincy-roadkill/" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/cincyroadkill.png"></a>
-                    <div class="project-description">
-                        <p>Populating Google Maps with the rarely viewed data about
-                        roadkill pickup in Cincinnati.</p>
-                        <p>Clicking the various icons reveals text from the report. You'll find it varies from matter of fact to oddly personal.</p>
-                        <p>Animal icons custom made with Adobe Illustrator, some from tracings and others from scratch.</p>
-                        <ul>
-                            <li>Cincinnati Open Data &mdash; SODA API</li>
-                        </ul>
-                        <ul class="devicon-bar">
-                            <li><i class=
-                            "devicon-bootstrap-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-html5-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-css3-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                        </ul>
-                        <ul class="devicon-bar">
-                            <li><i class=
-                            "devicon-javascript-plain icon-sizing"></i></li>
-                            <li><i class=
-                            "devicon-jquery-plain-wordmark icon-sizing"></i></li>
-                            <li><img class="devicon-chartjs" src=
-                            "./icons/chartjs-logo-custom.png"></li>
-                            <li><img class="devicon-google-maps" src=
-                            "./icons/Google_Maps_Icon.png"></li>
-                        </ul><a class="button button-primary" href=
-                        "http://agbales.github.io/cincy-roadkill/" target=
-                        "_blank">View Project</a>
-                    </div>
-                </div>
-                <!-- Free Code Camp -->
-                <div class="project-container">
-                    <h4>Game Programming</h4>
-                    <div class="codepen-svg">
-											<p data-height="725" data-theme-id="dark" data-slug-hash="Pzoaqw" data-default-tab="result" data-user="agbales" data-embed-version="2" data-pen-title="Simon" class="codepen">See the Pen <a href="https://codepen.io/agbales/pen/Pzoaqw/">Simon</a> by Andrew Bales (<a href="https://codepen.io/agbales">@agbales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-											<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-                    </div>
-                    <div class="project-description">
-                        <p>A Simon game for my Free Code Camp
-                        Front End Development certification. Take a look over
-                        all of my completed projects and my latest work on the
-                        back end certification here: <a href=
-                        "https://www.freecodecamp.com/agbales" target=
-                        "_blank">Free Code Camp</a></p>
-                        <div class="center-text"><img class="responsiv-img"
-                        src="./images/agb-fcc-certificate.jpg" style=
-                        "width: 100%;"></div>
-                        <ul class="devicon-bar">
-                            <li><i class=
-                            "devicon-html5-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-css3-plain icon-sizing color-icon"></i></li>
-                            <li><i class=
-                            "devicon-javascript-plain icon-sizing"></i></li>
-                            <li><i class=
-                            "devicon-jquery-plain-wordmark icon-sizing"></i></li>
-                        </ul>
-                    </div>
-                </div><!-- /project-->
-            </div><!-- /two-thirds -->
-        </div><!-- /row -->
-        <!-- Experience -->
-        <div class="row section-padding" id="experience">
-            <div class="one-third column">
-                <div class="section-icon-container">
-                    <img class="responsive-img" src=
-                    "./icons/agb-experience.png">
-                    <h4 class="section-title center-text">Experience</h4>
-                </div>
-            </div>
-            <div class="two-thirds column">
-                <!-- Elliston Collection-->
-                <div class="project-container">
-                    <div class="title">
-                        <h4 class="center-text">Collections Developer</h4>
-                        <h5 class="center-text">University of Cincinnati</h5>
-                        <h6 class="center-text">Spring 2016 - Summer 2017</h6>
-                    </div>
-                    <div class="project-description">
-                        <p>The University of Cincinnati has a stunning
-                        collection of recordings that for years haven't been
-                        particularly accessible. Each year since the 1950s,
-                        nationally renowed writers have visited campus to give
-                        reaadings. In fact, the poet Robert Frost was the first
-                        to visit campus.</p>
-                        <p>I began the work of making these recordings more
-                        accessible. The files lived in a relatively hard to
-                        navigate collection in the university's digital
-                        archive. Instead, we wanted a new website that would be
-                        easily maintainable by student assistants.</p>
-                        <p>For this, I customized a Wordpress page to appeal to
-                        both researchers and community members. I then wrote
-                        JavaScript and PHP scripts to transfer the bulk of
-                        links into their new pages.</p>
-                    </div>
-                    <ul>
-                        <li>Managed project from concept to implementation</li>
-                        <li>Wrote JavaScript & PHP code to connect database to
-                        Wordpress posts</li>
-                        <li>Coordinated with UC's Digital Content
-                        Stratgist</li>
-                        <li>Took photos & video to supplement content</li>
-                    </ul>
-                    <h4>The Elliston Collection</h4><a href=
-                    "http://http://ellistonproject.uc.edu/" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/ellistonproject.png"></a>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-html5-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-css3-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                    </ul>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-wordpress-plain colored icon-sizing"></i></li>
-                        <li><i class=
-                        "devicon-javascript-plain icon-sizing"></i></li>
-                    </ul><a class="button button-primary" href=
-                    "http://ellistonproject.uc.edu/" target="_blank">View
-                    Site</a>
-                </div><!-- ASF -->
-                <div class="project-container">
-                    <div class="title">
-                        <h4 class="center-text">Digital Editor</h4>
-                        <h5 class="center-text">American Short Fiction</h5>
-                        <h6 class="center-text">2014 - Present</h6>
-                    </div>
-                    <div class="project-description">
-                        <p>American Short Fiction is a nationally acclaimed
-                        fiction magazine based in Austin, Texas. It was founded
-                        by the University of Austin and is now run by a scrappy
-                        group of literary folk.</p>
-                        <p>I joined ASF as a reader in 2014. During the first
-                        year I reviewed submissions and helped launch a
-                        podcast. I became the Digital Editor in 2015, taking on
-                        responsibilities with design, promotion, and further
-                        editorial review.</p>
-                    </div>
-                    <ul>
-                        <li>Created podcast & oversee monthly author recordings</li>
-                        <li>Social media account managment</li>
-                        <li>Read and make recommendations on ficiton submissions</li>
-                    </ul>
-                    <h4>American Short Fiction</h4><a href=
-                    "http://americanshortfiction.org" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/asf.png"></a>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-html5-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-css3-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                    </ul>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-wordpress-plain colored icon-sizing"></i></li>
-                        <li><i class=
-                        "devicon-javascript-plain icon-sizing"></i></li>
-                    </ul><a class="button button-primary" href=
-                    "http://americanshortfiction.org" target="_blank">View
-                    Site</a>
-                </div><!-- KHPCO -->
-                <div class="project-container">
-                    <div class="title">
-                        <h4 class="center-text">Wordpress Developer</h4>
-                        <h5 class="center-text">Kansas Hospice & Palliative
-                        Care Organization</h5>
-                        <h6 class="center-text">2015 - Present</h6>
-                    </div>
-                    <div class="project-description">
-                        <p>I worked with KHPCO to create and host a new
-                        website. The Hospice organization helps coordinate and
-                        inform individual Hospice branches, so they needed a
-                        way to provide information to the general public and
-                        private members.</p>
-                        <p>For this, I built minimal public-facing info pages
-                        and a quick login for members who frequntly visit for
-                        updates, policies, files, and newsletters.</p>
-                    </div>
-                    <ul>
-                        <li>Designed website based on organizational need</li>
-                        <li>Created and mantained documents in private members
-                        section</li>
-                        <li>Edited organizational copy</li>
-                    </ul>
-                    <h4>KHPCO.org</h4><a href="http://khpco.org/" target=
-                    "_blank"><img class="project-screenshot" src=
-                    "./images/khpco.png"></a>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-html5-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-css3-plain icon-sizing color-icon"></i></li>
-                        <li><i class=
-                        "devicon-illustrator-plain icon-sizing color-icon"></i></li>
-                    </ul>
-                    <ul class="devicon-bar">
-                        <li><i class=
-                        "devicon-wordpress-plain colored icon-sizing"></i></li>
-                    </ul><a class="button button-primary" href=
-                    "http://khpco.org/" target="_blank">View Site</a>
-                </div><!-- / KHPCO -->
-            </div><!-- /two-thrids -->
-        </div><!-- /experience -->
-        <div class="row section-padding" id="skills">
-            <div class="one-third column">
-                <div class="section-icon-container">
-                    <img class="responsive-img" src="./icons/agb-skills.png">
-                    <h4 class="section-title center-text">Skills</h4>
-                </div>
-            </div>
-            <div class="two-thirds column">
-                <h5>Coding</h5>
-                <ul class="devicon-bar">
-                    <li><i class=
-                    "devicon-html5-plain icon-sizing html-color"></i></li>
-                    <li><i class=
-                    "devicon-css3-plain icon-sizing css-color"></i></li>
-                    <li><i class=
-                    "devicon-bootstrap-plain icon-sizing secondary bootstrap-color">
-                    </i></li>
-                    <li><i class=
-                    "devicon-javascript-plain icon-sizing js-color"></i></li>
-                    <li><i class=
-                    "devicon-jquery-plain-wordmark icon-sizing jquery-color"></i></li>
+            <!-- Cincinnati Roadkill -->
+            <div class="project-container">
+              <h4>Roadkill</h4><a href="http://agbales.github.io/cincy-roadkill/" target="_blank">
+                <img class="project-screenshot" src="./images/cincyroadkill.png">
+              </a>
+              <div class="project-description">
+                <p>Populating Google Maps with the rarely viewed data about
+                roadkill pickup in Cincinnati.</p>
+                <p>Clicking the various icons reveals text from the report. You'll find it varies from matter of fact to oddly personal.</p>
+                <p>Animal icons custom made with Adobe Illustrator, some from tracings and others from scratch.</p>
+                <ul>
+                    <li>Cincinnati Open Data &mdash; SODA API</li>
                 </ul>
                 <ul class="devicon-bar">
-                    <li><i class=
-                    "devicon-sass-original icon-sizing colored"></i></li>
-                    <li><i class=
-                    "devicon-angularjs-plain icon-sizing angular-color"></i></li>
-                    <li><i class=
-                    "devicon-wordpress-plain colored icon-sizing wordpress-color">
-                    </i></li>
-                    <li><i class=
-                    "devicon-ruby-plain icon-sizing ruby-color"></i></li>
-                    <li><i class=
-                    "devicon-nodejs-plain icon-sizing node-color"></i></li>
+                  <li><i class="devicon-bootstrap-plain icon-sizing color-icon"></i></li>
+                  <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                  <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+                  <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
                 </ul>
-                <h5>Design</h5>
                 <ul class="devicon-bar">
-                    <li><i class=
-                    "devicon-photoshop-plain icon-sizing ps-color"></i></li>
-                    <li><i class=
-                    "devicon-illustrator-plain icon-sizing ai-color"></i></li>
-                    <li><img class="devicon-id" src=
-                    "./icons/indesign-color.png"></li>
-                    <li><img class="devicon-sketch" src=
-                    "./icons/sketch.png"></li>
-                    <li></li>
+                  <li><i class="devicon-javascript-plain icon-sizing"></i></li>
+                  <li><i class="devicon-jquery-plain-wordmark icon-sizing"></i></li>
+                  <li><img class="devicon-chartjs" src="./icons/chartjs-logo-custom.png"></li>
+                  <li><img class="devicon-google-maps" src="./icons/Google_Maps_Icon.png"></li>
                 </ul>
-                <h5>Writing & Research</h5>
-                <p>I've taught English courses on compostion, business,
-                fiction writing, and digital forms at Wichita State University and the
-                University of Cincinnati. I hold an MFA in fiction and am now a candidate in the English and Comparative Literature PhD program at the
-                University of Cincinnati.</p>
-                <p>I love analysis and considering how design influences the way
-                we read and learn.</p>
+                <a class="button button-primary" href="http://agbales.github.io/cincy-roadkill/" target="_blank">View Project</a>
+              </div>
             </div>
-        </div><!-- /skills -->
-        <!-- contact -->
-        <div class="row section-padding" id="contact">
-            <div class="one-third column">
-                <div class="section-icon-container">
-                    <img class="responsive-img" src="./icons/agb-contact.png">
-                    <h4 class="section-title center-text">Contact</h4>
-                </div>
+            <!-- Free Code Camp -->
+            <div class="project-container">
+              <h4>Game Programming</h4>
+              <div class="codepen-svg">
+								<p data-height="725" data-theme-id="dark" data-slug-hash="Pzoaqw" data-default-tab="result" data-user="agbales" data-embed-version="2" data-pen-title="Simon" class="codepen">See the Pen <a href="https://codepen.io/agbales/pen/Pzoaqw/">Simon</a> by Andrew Bales (<a href="https://codepen.io/agbales">@agbales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+								<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+              </div>
+              <div class="project-description">
+                  <p>A Simon game for my Free Code Camp
+                  Front End Development certification. Take a look over
+                  all of my completed projects and my latest work on the
+                  back end certification here: <a href=
+                  "https://www.freecodecamp.com/agbales" target=
+                  "_blank">Free Code Camp</a></p>
+                  <div class="center-text"><img class="responsiv-img"
+                  src="./images/agb-fcc-certificate.jpg" style=
+                  "width: 100%;"></div>
+                  <ul class="devicon-bar">
+                      <li><i class=
+                      "devicon-html5-plain icon-sizing color-icon"></i></li>
+                      <li><i class=
+                      "devicon-css3-plain icon-sizing color-icon"></i></li>
+                      <li><i class=
+                      "devicon-javascript-plain icon-sizing"></i></li>
+                      <li><i class=
+                      "devicon-jquery-plain-wordmark icon-sizing"></i></li>
+                  </ul>
+              </div>
+          </div><!-- /project-->
+      </div><!-- /two-thirds -->
+  </div><!-- /row -->
+  <!-- Experience -->
+  <div class="row section-padding" id="experience">
+      <div class="one-third column">
+          <div class="section-icon-container">
+              <img class="responsive-img" src=
+              "./icons/agb-experience.png">
+              <h4 class="section-title center-text">Experience</h4>
+          </div>
+      </div>
+      <div class="two-thirds column">
+          <!-- Elliston Collection-->
+          <div class="project-container">
+            <div class="title">
+              <h4 class="center-text">Collections Developer</h4>
+              <h5 class="center-text">University of Cincinnati</h5>
+              <h6 class="center-text">Spring 2016 - Summer 2017</h6>
             </div>
-            <div class="two-thirds column center-text">
-              <h3>agbales@gmail.com</h3>
-							<ul class="devicon-bar">
-								<li>
-									<a href="https://www.linkedin.com/in/andrew-bales-a19508132/" target="_blank">
-                    <img class="devicon-linkedin" src="./icons/linkedin.png">
-                  </a>
-								</li>
-                <li>
-                  <a href="https://github.com/agbales/" target="_blank">
-                    <img class="devicon-github" src="./icons/github.png">
-                  </a>
-                </li>
-								<li>
-									<a href="http://twitter.com/agbales" target="_blank">
-                    <img class="devicon-twitter" src="./icons/twitter.png">
-                  </a>
-								</li>
-							</ul>
+            <div class="project-description">
+              <p>The University of Cincinnati has a stunning
+              collection of recordings that for years haven't been
+              particularly accessible. Each year since the 1950s,
+              nationally renowed writers have visited campus to give
+              reaadings. In fact, the poet Robert Frost was the first
+              to visit campus.</p>
+              <p>I began the work of making these recordings more
+              accessible. The files lived in a relatively hard to
+              navigate collection in the university's digital
+              archive. Instead, we wanted a new website that would be
+              easily maintainable by student assistants.</p>
+              <p>For this, I customized a Wordpress page to appeal to
+              both researchers and community members. I then wrote
+              JavaScript and PHP scripts to transfer the bulk of
+              links into their new pages.</p>
             </div>
-        </div><!-- /contact -->
-    </div><!-- /overview -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
-		<script src="./js/index.js" type="text/javascript"></script>
-
+            <ul>
+              <li>Managed project from concept to implementation</li>
+              <li>Wrote JavaScript & PHP code to connect database to
+              Wordpress posts</li>
+              <li>Coordinated with UC's Digital Content Stratgist</li>
+              <li>Took photos & video to supplement content</li>
+            </ul>
+            <h4>The Elliston Collection</h4><a href="http://http://ellistonproject.uc.edu/" target="_blank"><img class="project-screenshot" src="./images/ellistonproject.png"></a>
+            <ul class="devicon-bar">
+              <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+              <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+              <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
+            </ul>
+            <ul class="devicon-bar">
+              <li><i class="devicon-wordpress-plain colored icon-sizing"></i></li>
+              <li><i class="devicon-javascript-plain icon-sizing"></i></li>
+            </ul><a class="button button-primary" href="http://ellistonproject.uc.edu/" target="_blank">View Site</a>
+            </div>
+            <!-- ASF -->
+            <div class="project-container">
+              <div class="title">
+                <h4 class="center-text">Digital Editor</h4>
+                <h5 class="center-text">American Short Fiction</h5>
+                <h6 class="center-text">2014 - Present</h6>
+              </div>
+              <div class="project-description">
+                <p>American Short Fiction is a nationally acclaimed
+                fiction magazine based in Austin, Texas. It was founded
+                by the University of Austin and is now run by a scrappy
+                group of literary folk.</p>
+                <p>I joined ASF as a reader in 2014. During the first
+                year I reviewed submissions and helped launch a
+                podcast. I became the Digital Editor in 2015, taking on
+                responsibilities with design, promotion, and further
+                editorial review.</p>
+              </div>
+              <ul>
+                <li>Created podcast & oversee monthly author recordings</li>
+                <li>Social media account managment</li>
+                <li>Read and make recommendations on ficiton submissions</li>
+              </ul>
+              <h4>American Short Fiction</h4>
+              <a href="http://americanshortfiction.org" target="_blank">
+                <img class="project-screenshot" src="./images/asf.png">
+              </a>
+              <ul class="devicon-bar">
+                <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
+              </ul>
+              <ul class="devicon-bar">
+                <li><i class="devicon-wordpress-plain colored icon-sizing"></i></li>
+                <li><i class="devicon-javascript-plain icon-sizing"></i></li>
+              </ul>
+              <a class="button button-primary" href="http://americanshortfiction.org" target="_blank">View Site</a>
+            </div>
+            <!-- KHPCO -->
+            <div class="project-container">
+              <div class="title">
+                <h4 class="center-text">Wordpress Developer</h4>
+                <h5 class="center-text">Kansas Hospice & Palliative Care Organization</h5>
+                <h6 class="center-text">2015 - Present</h6>
+              </div>
+              <div class="project-description">
+                <p>I worked with KHPCO to create and host a new
+                website. The Hospice organization helps coordinate and
+                inform individual Hospice branches, so they needed a
+                way to provide information to the general public and
+                private members.</p>
+                <p>For this, I built minimal public-facing info pages
+                and a quick login for members who frequntly visit for
+                updates, policies, files, and newsletters.</p>
+              </div>
+              <ul>
+                <li>Designed website based on organizational need</li>
+                <li>Created and mantained documents in private members section</li>
+                <li>Edited organizational copy</li>
+              </ul>
+              <h4>KHPCO.org</h4><a href="http://khpco.org/" target="_blank">
+                <img class="project-screenshot" src="./images/khpco.png">
+              </a>
+              <ul class="devicon-bar">
+                <li><i class="devicon-html5-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-css3-plain icon-sizing color-icon"></i></li>
+                <li><i class="devicon-illustrator-plain icon-sizing color-icon"></i></li>
+              </ul>
+              <ul class="devicon-bar">
+                <li><i class="devicon-wordpress-plain colored icon-sizing"></i></li>
+              </ul>
+              <a class="button button-primary" href="http://khpco.org/" target="_blank">View Site</a>
+          </div><!-- / KHPCO -->
+        </div><!-- /two-thrids -->
+    </div><!-- /experience -->
+    <div class="row section-padding" id="skills">
+      <div class="one-third column">
+        <div class="section-icon-container">
+          <img class="responsive-img" src="./icons/agb-skills.png">
+          <h4 class="section-title center-text">Skills</h4>
+        </div>
+      </div>
+        <div class="two-thirds column">
+          <h5>Coding</h5>
+          <ul class="devicon-bar">
+            <li><i class="devicon-html5-plain icon-sizing html-color"></i></li>
+            <li><i class="devicon-css3-plain icon-sizing css-color"></i></li>
+            <li><i class="devicon-bootstrap-plain icon-sizing secondary bootstrap-color"></i></li>
+            <li><i class="devicon-javascript-plain icon-sizing js-color"></i></li>
+            <li><i class="devicon-jquery-plain-wordmark icon-sizing jquery-color"></i></li>
+          </ul>
+          <ul class="devicon-bar">
+            <li><i class="devicon-sass-original icon-sizing colored"></i></li>
+            <li><i class="devicon-angularjs-plain icon-sizing angular-color"></i></li>
+            <li><i class="devicon-wordpress-plain colored icon-sizing wordpress-color"></i></li>
+            <li><i class="devicon-ruby-plain icon-sizing ruby-color"></i></li>
+            <li><i class="devicon-nodejs-plain icon-sizing node-color"></i></li>
+          </ul>
+          <h5>Design</h5>
+          <ul class="devicon-bar">
+            <li><i class="devicon-photoshop-plain icon-sizing ps-color"></i></li>
+            <li><i class="devicon-illustrator-plain icon-sizing ai-color"></i></li>
+            <li><img class="devicon-id" src="./icons/indesign-color.png"></li>
+            <li><img class="devicon-sketch" src="./icons/sketch.png"></li>
+            <li></li>
+          </ul>
+          <h5>Writing & Research</h5>
+          <p>I've taught English courses on compostion, business,
+          fiction writing, and digital forms at Wichita State University and the
+          University of Cincinnati. I hold an MFA in fiction and am now a candidate in the English and Comparative Literature PhD program at the
+          University of Cincinnati.</p>
+          <p>I love analysis and considering how design influences the way we read and learn.</p>
+      </div>
+    </div><!-- /skills -->
+    <!-- contact -->
+    <div class="row section-padding" id="contact">
+      <div class="one-third column">
+          <div class="section-icon-container">
+              <img class="responsive-img" src="./icons/agb-contact.png">
+              <h4 class="section-title center-text">Contact</h4>
+          </div>
+      </div>
+      <div class="two-thirds column center-text">
+        <h3>agbales@gmail.com</h3>
+				<ul class="devicon-bar">
+					<li>
+						<a href="https://www.linkedin.com/in/andrew-bales-a19508132/" target="_blank">
+              <img class="devicon-linkedin" src="./icons/linkedin.png">
+            </a>
+					</li>
+          <li>
+            <a href="https://github.com/agbales/" target="_blank">
+              <img class="devicon-github" src="./icons/github.png">
+            </a>
+          </li>
+					<li>
+						<a href="http://twitter.com/agbales" target="_blank">
+              <img class="devicon-twitter" src="./icons/twitter.png">
+            </a>
+					</li>
+				</ul>
+      </div>
+    </div><!-- /contact -->
+  </div><!-- /overview -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+	<script src="./js/index.js" type="text/javascript"></script>
 </body>
 </html>
