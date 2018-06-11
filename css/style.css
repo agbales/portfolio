@@ -187,6 +187,11 @@ input.button.button-primary:hover {
   transform: translateY(2px);
 }
 
+.devicon-linkedin {
+  max-height: 45px;
+  transform: translateY(-5px);
+}
+
 .devicon-medium {
   max-height: 45px;
   transform: translateY(-5px);
@@ -197,8 +202,8 @@ input.button.button-primary:hover {
 }
 
 .devicon-twitter {
-  max-height: 50px;
-  margin-bottom: 3px;
+  max-height: 55px;
+  margin-bottom: 2px;
 }
 
 /*-------------------- */
