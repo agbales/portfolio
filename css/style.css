@@ -441,6 +441,7 @@ input.button.button-primary:hover {
 }
 
 .video-container {
+  transform: translateY(-20px);
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
