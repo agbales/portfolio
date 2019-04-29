@@ -202,7 +202,7 @@ input.button.button-primary:hover {
 
 .devicon-medium {
   max-height: 45px;
-  transform: translateY(-5px);
+  transform: translate(-20px, -7px);
 }
 
 .devicon-npm {
@@ -222,8 +222,20 @@ input.button.button-primary:hover {
 .devicon-twitter {
   max-height: 55px;
   margin-bottom: 2px;
+  transform: translateX(-20px)
 }
 
+.devicon-twitter-contact {
+  max-height: 55px;
+  margin-bottom: 2px;
+  transform: translateX(-6px);
+}
+
+
+
+
+
+}
 
 /*-------------------- */
 /*------- Nav -------- */
