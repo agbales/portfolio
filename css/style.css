@@ -165,10 +165,18 @@ input.button.button-primary:hover {
   margin-bottom: 5px;
 }
 
+.devicon-firebase {
+  max-height: 45px;
+}
+
 .devicon-fcc {
   max-height: 40px;
   margin-left: -18px;
   margin-bottom: 7px;
+}
+
+.devicon-gcp {
+  max-height: 45px;
 }
 
 .devicon-github {
@@ -197,6 +205,16 @@ input.button.button-primary:hover {
   transform: translateY(-5px);
 }
 
+.devicon-npm {
+  max-width: 60px;
+  transform: translateY(-6px);
+}
+
+.devicon-premiere {
+  max-height: 53px;
+  transform: translateY(6px);
+}
+
 .devicon-sketch {
   max-height: 50px;
 }
@@ -205,6 +223,7 @@ input.button.button-primary:hover {
   max-height: 55px;
   margin-bottom: 2px;
 }
+
 
 /*-------------------- */
 /*------- Nav -------- */
